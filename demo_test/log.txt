@@ -1,0 +1,8 @@
+src/main.rs
+--sysroot
+/Users/jjurm/.rustup/toolchains/nightly-2022-05-16-x86_64-apple-darwin
+-L
+dependency=/Users/jjurm/workspace/prusti-demo/demo_test/../../prusti-dev/target/release/deps
+--extern
+prusti_contracts=/Users/jjurm/workspace/prusti-demo/demo_test/../../prusti-dev/target/release/libprusti_contracts.rlib
+--cfg=feature="prusti"
