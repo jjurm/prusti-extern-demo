@@ -15,5 +15,3 @@ impl<T> Opt<T> {
         }
     }
 }
-
-fn main() {}
